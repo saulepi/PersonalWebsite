@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/7f489b4be9.js" 
+		crossorigin="anonymous"></script>
+		<title>About Me</title>
+		
+	</head>
+	<body>
+	<div class="menu_buttons col-2">
+		<div class="small_size">
+			<a class="menu_a active" href="AboutMe.html">About me</a>
+				<div id="myLinks">
+					<a class="menu_a" href="Index.html">Home</a>
+					<a class="menu_a" href="Skills.html">Skills</a>
+					<a class="menu_a" href="Experience.html">Experience</a>
+					<a class="menu_a" href="Education.html">Education</a>
+					<a class="menu_a" href="Contact.html">Contact</a>
+				</div>	
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+		</div>	
+		<div class="big_size">
+				<a class="menu_a" href="Index.html">Home</a>
+				<a class="menu_a active" href="AboutMe.html">About me</a>
+				<a class="menu_a" href="Skills.html">Skills</a>
+				<a class="menu_a" href="Experience.html">Experience</a>
+				<a class="menu_a" href="Education.html">Education</a>
+				<a class="menu_a" href="Contact.html">Contact</a>
+			</div>
+		<div id="contact">
+			<h4>VILNIUS UNIVERSITY</h4>
+			<p>Didlaukio str. 47<br>Vilnius, Lithuania</p>
+			<h4>SOCIAL</h4>
+			<div class="social">
+				<a href="https://www.facebook.com/saule.pievaityte">
+				<i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/pievaityte">
+				<i class="fab fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/saulė-pievaitytė-2a0b64189">
+				<i class="fab fa-linkedin-in"></i></a>	
+				<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+		
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+	</script>
+	<div id="aboutme">
+		<h1><ins style="color:black;">ABOUT</ins> ME</h1>
+		<h4><i class="fas fa-user"></i><span> PERSONAL INFO</span></h4>
+		<p>I am a fourth year Bioinformatics student at Vilnius University, 
+		Faculty of Mathematics and Informatics.</p>
+		<div class="tbl">
+		<table class="left">
+			<tr>
+				<td><b>First Name</b></td>
+				<td>Saulė</td>
+			</tr>
+			<tr>
+				<td><b>Last Name</b></td>
+				<td>Pievaitytė</td>
+			</tr>
+			<tr>
+				<td><b>Date of birth</b></td>
+				<td>11 June 1998</td>
+			</tr>
+			<tr>
+				<td><b>Nationality</b></td>
+				<td>LT</td>
+			</tr>
+			<tr>
+				<td><b>Freelance</b></td>
+				<td>Available</td>
+			</tr>
+		</table>
+		<table class="right">
+			<tr>
+				<td><b>Phone</b></td>
+				<td class="second"><a href="tel:0037068344000">+370 683 44 000</a></td>
+			</tr>
+			<tr>
+				<td><b>Address</b></td>
+				<td class="second">Užupis, Vilnius</td>
+			</tr>
+			<tr>
+				<td><b>Email</b></td>
+				<td class="second"><a href="mailto:saule.pievaityte@gmail.com">saule.pievaityte@gmail.com</a></td>
+			</tr>
+			<tr>
+				<td><b>Spoken</b></td>
+				<td class="second">Lithuanian - English</td>
+			</tr>
+			<tr>
+				<td><b>GitHub</b></td>
+				<td class="second">saulepi</td>
+			</tr>
+		</table>	
+		</div>
+	</div>
+	<br>
+	<div class="buttons">
+		<button class="about_me_b green_b" type="submit" 
+			onclick="window.open('documents/cv.pdf')">DOWNLOAD RESUME</button>
+		<button class="about_me_b transp_b" onclick="location.href='https://github.com/saulepi'" >GitHub</button>
+	</div>
+	<br>
+	<div id="icon_block">
+		<div class="icons">
+			<!--<i class="ic fas fa-briefcase"></i>-->
+			<!--<h1 class="title">20+</h1>-->
+			<!--<h4>PROJECTS<br>COMPLETED</h4>-->
+		</div>
+		<div class="icons">
+			<!--<i class="ic fas fa-clock"></i>-->
+			<!--<h1 class="title">3+</h1>-->
+			<!--<h4>YEARS<br>EXPERIENCE</h4>-->
+		</div>
+		<div class="icons">
+			<!--<i class="ic fas fa-mug-hot"></i>-->
+			<!--<h1 class="title">12+</h1>-->
+			<!--<h4>HAPPY<br>CUSTOMERS</h4>-->
+		</div>
+		<div class="icons">
+			<!--<i class="ic fas fa-award"></i>-->
+			<!--<h1 class="title">5+</h1>-->
+			<!--<h4>WINNING<br>AWARDS</h4>-->
+		</div>
+	</div>	
+	
+	
+	</body>
+</html>

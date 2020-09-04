@@ -1,0 +1,438 @@
+html{
+	min-height: 100%;
+	background-image: linear-gradient(108deg, rgba(205,27,27,0.24712587671787467) 0%, rgba(222,214,45,0.35356845374868695) 100%);
+}
+
+body {
+	margin-left: 25%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	}
+	
+.menu_buttons {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	box-shadow: 5px 0 7px -2px olivedrab; /* dešinė, apačia, sklaida, aukštis */
+
+}
+.menu_buttons .menu_a {
+	text-decoration: none;
+	display: block;
+	padding:20px 16px;
+	vertical-align:middle;
+	text-decoration:none;
+	color:grey;
+	background-color:white;
+	text-align:left;
+	border-bottom: 0.5px solid grey;
+}
+
+.menu_buttons .menu_a:hover{
+	color: olivedrab;
+	border-bottom: 2px solid olivedrab;
+}
+.active{
+	color: olivedrab !important;
+	border-bottom: 2px solid olivedrab !important;
+}
+
+#main {
+   top: 30%;
+   left: 25%; 
+   padding: 5px;
+  
+}
+
+#my_img{
+	border-radius: 50%;
+	border: 2px solid olivedrab;
+	margin-top: 5%;
+	width:15%;
+	height:15%;
+
+}
+h1{
+	color: olivedrab;
+}
+.about_me_b{
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding: 15px 32px;
+	text-align: center;
+	cursor: pointer;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.green_b{
+	color:white;
+	background: olivedrab;
+	border: 1px solid olivedrab;
+}
+.green_b:hover{
+	opacity: 0.8;
+}
+.transp_b{
+	color: olivedrab;
+	background: none;
+	border: 1px solid olivedrab;
+}
+.transp_b:hover{
+	background-color: rgb(107, 142, 35, 0.1);
+}	
+
+#contact{
+	font-size: 12px;
+	text-align: left;
+	margin-left: 10%;
+	color: grey;
+}
+.left{
+	display:inline-table;
+}
+.right{
+	display:inline-table;
+	margin-left: 15%;
+}
+.progress{
+	height:40%;
+	width:40%;
+}
+.w3-border{
+	background-color: silver;
+	width:100%;
+	border-radius:10px;
+	}
+.w3-grey{
+	color:white;
+	text-align: center;
+	background-color:olivedrab;
+	height:20px;
+	border-radius:10px;
+}
+.progress{
+	display: inline-block;
+	padding: 1%;
+}
+p{
+	margin-right: 2%;
+}
+
+.icons{
+	display: inline-block;
+	width: 22%;
+	text-align: center; 
+}
+.ic{
+	font-size: 300%;
+	opacity: 0.5;
+	color: olivedrab;
+}
+.lang{
+	display: inline-block;
+	width: 30%;
+	color: olivedrab;
+	text-align: center;
+}
+.descrip{
+	border-left: 2px solid black;
+	padding-left: 2%;
+	margin-left: 1.5%;
+}
+.cv_block{
+	display: inline-block;
+	width: 45%;
+}
+.ed_block{
+	display: inline-block;
+	width: 72%;
+}
+#books{
+	width:22%;
+}
+.fab {
+	color: silver;
+	font-size: 150%;
+}
+.fab:hover {
+	color: olivedrab;
+}
+
+c{
+	display: inline-block;
+	width: 40%;
+}
+.contact_l{
+	float: right;
+	display: inline-block;
+	position: absolute;
+}
+.contact_r{
+	display: inline-block;
+	margin-left: 50%;
+}
+.input{
+	width: 80%;
+	height: 30px;
+	margin-bottom: 3%;
+	background-color: transparent;
+	border: 0.5px solid silver;
+	border-radius: 4px;
+	padding-left: 9%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+textarea{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	height: 60px !important;
+}
+.cont{
+	position: absolute;
+	padding-top: 0.5%;
+	padding-left: 0.5%;
+	opacity: 0.8;
+	color: silver;
+}
+iframe{
+	height: 70px;
+	width: 270px;
+	border: 0;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.small_size{
+	display: none;
+}
+* {
+  box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.icon{
+	display:none;
+}
+.g-recaptcha{
+	  display: inline-block;
+ }
+@media screen and (max-width: 599px){
+	td{
+		border: 1px solid black;
+		border-color: transparent;
+		
+	}
+	.right td.second{
+	padding-left: 34px;
+	}
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  div#contact{
+	  display: none;
+  }
+   .menu_buttons .menu_a {
+    float: none;
+	
+  }
+  #myLinks{
+	  display: none;
+  }
+  .icon {
+	display: inline;
+  background: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 300%;
+  color: olivedrab;
+  padding-right: 1%;
+  }
+  .menu_buttons{
+	  background: none;
+	 box-shadow: none;
+	  position: fixed;
+	  height: 10%;
+	  
+  }
+  div.content{
+
+	  margin-top: 20%;
+	  text-align: center;
+  }
+  body{
+	   margin: 4%;
+  }
+  .right{
+	  margin-left: 0;
+  }
+  div#icon_block{
+	  display: none;
+  }
+  .buttons{
+	  text-align: left;
+	  margin-top: 5%;
+  }
+  .buttons, #aboutme{
+	margin-left: 10px !important;
+  }
+  .cv_block{
+	  display: block;
+  }
+  .lang{
+	  text-align: center;
+	  margin-top: 0;
+  }
+  #books{
+	  display:none;
+  }
+  .big_size{
+	  display: none;
+  }
+  .small_size{
+	  display: initial;
+  }
+  .ed_block{
+	  width: 100%;
+  }
+  #my_img{
+	  top: 20px;
+	  width: 40%;
+	  height: 40%;
+  }
+  .c{
+	  float: left;
+	  position: relative;
+	  display: block;
+
+  }
+  div.contact_r, div.contact_l{
+	   margin-left: 0;
+	   position: initial;
+	   	  text-align: center;
+  }
+  div.contact_r{
+	  margin-top: 2%;
+  }
+  .contact_desc{
+	  text-align: center;
+  }
+  h1{
+	visibility: hidden;
+  }
+  #title{
+	  visibility:initial;
+  }
+  h4{
+	  text-align: center;
+  }
+  .cont{
+	 z-index: -1;
+  }
+  .g-recaptcha{
+	  text-align: center;
+ } 
+ .title{
+	  visibility:initial;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px){
+	.menu_buttons{
+    width: 100%;
+    height: auto;
+    position: fixed;
+	box-shadow: 0px 2px 7px 1px olivedrab; /* dešinė, apačia, sklaida, aukštis */
+  }
+  .menu_buttons .menu_a {
+	  float: left;
+	  border-bottom: none;
+  }
+  div.content {margin-left: 10%;}
+  body{
+	  margin-left: 5%;
+	  
+  }
+   div#contact{
+	  display: none;
+  }
+  h1{
+	visibility: hidden;
+  }
+  .title{
+	  visibility:initial;
+  }
+  #main{
+	  margin-top: 10%;
+	  width: 50%;
+	  position: absolute;
+	  left: 5%;
+	  top: 0;
+  }
+  #my_img{
+	  margin-left: 60%;
+	  margin-top: 25%;
+	  width: 30%;
+	  height: 30%;
+  }
+  #books{
+	 display: none;
+  }
+  .ed_block{
+	  width: auto;
+	  padding-right: 8%;
+  }
+  .not_medium{
+	  display: none;
+  }
+  .medium_size_cont{
+	  display: initial;
+  }
+  .c{
+	  float: left;
+	  position: initial;
+	  display: block;
+
+  }
+  div.contact_r, div.contact_l{
+	   margin-left: 0;
+	   position: initial;
+	   	  text-align: center;
+  }
+  div.contact_r{
+	  margin-top: 2%;
+  }
+  .contact_desc{
+	  text-align: center;
+  }
+  .col-5{
+	  width: 100%;
+  }
+  .right{
+	  margin-left: 0;
+  }
+  .buttons{
+	  text-align: center;
+  }
+  .tbl{
+	  text-align: center;
+  }
+  .icon_block{
+	  text-align: center;
+	  width: 100%;
+  }
+  body{
+	  margin-right: 5%;
+  }
+}
+

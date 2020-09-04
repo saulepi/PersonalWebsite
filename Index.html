@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/7f489b4be9.js" 
+		crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+	<div class="menu_buttons col-2">
+			<div class="small_size">
+				<a class="menu_a active" href="Index.html">Home</a>
+				<div id="myLinks">
+					<a class="menu_a" href="AboutMe.html">About me</a>
+					<a class="menu_a" href="Skills.html">Skills</a>
+					<a class="menu_a" href="Experience.html">Experience</a>
+					<a class="menu_a" href="Education.html">Education</a>
+					<a class="menu_a" href="Contact.html">Contact</a>
+				</div>	
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+			</div>
+			<div class="big_size">
+				<a class="menu_a active" href="Index.html">Home</a>
+				<a class="menu_a" href="AboutMe.html">About me</a>
+				<a class="menu_a" href="Skills.html">Skills</a>
+				<a class="menu_a" href="Experience.html">Experience</a>
+				<a class="menu_a" href="Education.html">Education</a>
+				<a class="menu_a" href="Contact.html">Contact</a>
+			</div>
+		<div id="contact">
+			<h4>VILNIUS UNIVERSITY</h4>
+			<p>Didlaukio str. 47<br>Vilnius, Lithuania</p>
+			<h4>SOCIAL</h4>
+			<div class="social">
+				<a href="https://www.facebook.com/saule.pievaityte">
+				<i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/pievaityte">
+				<i class="fab fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/saulė-pievaitytė-2a0b64189">
+				<i class="fab fa-linkedin-in"></i></a>	
+				<a href="https://www.twitter.com">
+				<i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+		
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+	</script>
+	<div class="content col-10">
+	
+		<img id="my_img" alt="my photo" src="images/me/mee.png">
+		
+		<div id="main">
+			<h5>Hi there, I'm Saulė Pievaitytė</h5>
+			<h1 class="title">BIOINFORMATICS<br> STUDENT</h1>
+			<p>This website was created to improve my HTML, CSS and JAVASCRIPT skills as well as to
+			describe my overall personality.</p>
+			<button class="about_me_b green_b" onclick="location.href='Contact.html'"> Hire me</button>
+			<button class="about_me_b transp_b" onclick="location.href='https://github.com/saulepi'">GitHub</button>
+		</div>
+		
+	</div>
+	
+
+	</body>
+</html>
